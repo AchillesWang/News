@@ -7,7 +7,6 @@
 //
 
 #import "NTViewController.h"
-
 @interface NTViewController ()
 
 @end

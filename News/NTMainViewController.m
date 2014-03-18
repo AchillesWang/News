@@ -6,12 +6,14 @@
 //  Copyright (c) 2014年 NextTime. All rights reserved.
 //
 
-#import "NTViewController.h"
-@interface NTViewController ()
+#import "NTMainViewController.h"
+
+
+@interface NTMainViewController ()
 
 @end
 
-@implementation NTViewController
+@implementation NTMainViewController
 
 - (void)viewDidLoad
 {

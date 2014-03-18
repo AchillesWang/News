@@ -2,7 +2,7 @@
 //  NTViewController.h
 //  News
 //
-//  Created by 潇翔 汪 on 14-3-12.
+//  Created by HuXin on 14-3-17.
 //  Copyright (c) 2014年 NextTime. All rights reserved.
 //
 

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D38B79218D7401800683B4E /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D38B79118D7401800683B4E /* NTViewController.m */; };
+		0D668D4318D8909B00B8EF6F /* NTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D668D3F18D8909B00B8EF6F /* NTNavigationController.m */; };
+		0D668D4418D8909B00B8EF6F /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D668D4218D8909B00B8EF6F /* NTViewController.m */; };
 		3A07E6DD18CFF4ED0008A00F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A07E6DC18CFF4ED0008A00F /* Foundation.framework */; };
 		3A07E6DF18CFF4ED0008A00F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A07E6DE18CFF4ED0008A00F /* CoreGraphics.framework */; };
 		3A07E6E118CFF4ED0008A00F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A07E6E018CFF4ED0008A00F /* UIKit.framework */; };
@@ -29,7 +30,6 @@
 		3A07E74C18CFFAC50008A00F /* UIDevice+Resolutions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E74B18CFFAC50008A00F /* UIDevice+Resolutions.m */; };
 		3A07E75018CFFB0F0008A00F /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E74F18CFFB0F0008A00F /* UIUtils.m */; };
 		3A07E75518CFFC490008A00F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E75418CFFC490008A00F /* UIViewExt.m */; };
-		3AC4CD0918D054DA007E3A8E /* NTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4CD0518D054DA007E3A8E /* NTNavigationController.m */; };
 		9427A989DB5A467F8A37FFD1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8F1D716E454D2EA0B7D988 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,8 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D38B79018D7401800683B4E /* NTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTViewController.h; sourceTree = "<group>"; };
-		0D38B79118D7401800683B4E /* NTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTViewController.m; sourceTree = "<group>"; };
+		0D668D3E18D8909B00B8EF6F /* NTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNavigationController.h; sourceTree = "<group>"; };
+		0D668D3F18D8909B00B8EF6F /* NTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNavigationController.m; sourceTree = "<group>"; };
+		0D668D4118D8909B00B8EF6F /* NTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTViewController.h; sourceTree = "<group>"; };
+		0D668D4218D8909B00B8EF6F /* NTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTViewController.m; sourceTree = "<group>"; };
 		2A8F1D716E454D2EA0B7D988 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A07E6D918CFF4ED0008A00F /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A07E6DC18CFF4ED0008A00F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,8 +86,6 @@
 		3A07E74F18CFFB0F0008A00F /* UIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtils.m; sourceTree = "<group>"; };
 		3A07E75318CFFC490008A00F /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		3A07E75418CFFC490008A00F /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
-		3AC4CD0418D054DA007E3A8E /* NTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNavigationController.h; sourceTree = "<group>"; };
-		3AC4CD0518D054DA007E3A8E /* NTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNavigationController.m; sourceTree = "<group>"; };
 		BF63C9D199FB43FD82FB16EE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +114,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D668D3B18D8909B00B8EF6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0D668D3C18D8909B00B8EF6F /* Controller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0D668D3C18D8909B00B8EF6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D668D3D18D8909B00B8EF6F /* NTNavigationController */,
+				0D668D4018D8909B00B8EF6F /* NTViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0D668D3D18D8909B00B8EF6F /* NTNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				0D668D3E18D8909B00B8EF6F /* NTNavigationController.h */,
+				0D668D3F18D8909B00B8EF6F /* NTNavigationController.m */,
+			);
+			path = NTNavigationController;
+			sourceTree = "<group>";
+		};
+		0D668D4018D8909B00B8EF6F /* NTViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0D668D4118D8909B00B8EF6F /* NTViewController.h */,
+				0D668D4218D8909B00B8EF6F /* NTViewController.m */,
+			);
+			path = NTViewController;
+			sourceTree = "<group>";
+		};
 		3A07E6D018CFF4ED0008A00F = {
 			isa = PBXGroup;
 			children = (
@@ -199,7 +234,7 @@
 		3A07E71118CFF5640008A00F /* General */ = {
 			isa = PBXGroup;
 			children = (
-				3AC4CD0218D054DA007E3A8E /* Controller */,
+				0D668D3B18D8909B00B8EF6F /* Classes */,
 				3A07E71E18CFF7670008A00F /* Views */,
 				3A07E75118CFFC380008A00F /* Extension */,
 				3A07E71C18CFF7670008A00F /* Categories */,
@@ -370,33 +405,6 @@
 			path = Video;
 			sourceTree = "<group>";
 		};
-		3AC4CD0218D054DA007E3A8E /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3AC4CD0318D054DA007E3A8E /* NTNavigationController */,
-				3AC4CD0618D054DA007E3A8E /* NTViewController */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3AC4CD0318D054DA007E3A8E /* NTNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				3AC4CD0418D054DA007E3A8E /* NTNavigationController.h */,
-				3AC4CD0518D054DA007E3A8E /* NTNavigationController.m */,
-			);
-			path = NTNavigationController;
-			sourceTree = "<group>";
-		};
-		3AC4CD0618D054DA007E3A8E /* NTViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0D38B79018D7401800683B4E /* NTViewController.h */,
-				0D38B79118D7401800683B4E /* NTViewController.m */,
-			);
-			path = NTViewController;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -536,11 +544,11 @@
 				3A07E75518CFFC490008A00F /* UIViewExt.m in Sources */,
 				3A07E72918CFF7F50008A00F /* NTTableView.m in Sources */,
 				3A07E72518CFF7BF0008A00F /* NTTableViewCell.m in Sources */,
-				0D38B79218D7401800683B4E /* NTViewController.m in Sources */,
+				0D668D4418D8909B00B8EF6F /* NTViewController.m in Sources */,
 				3A07E6ED18CFF4ED0008A00F /* NTAppDelegate.m in Sources */,
 				3A07E6E918CFF4ED0008A00F /* main.m in Sources */,
 				3A07E75018CFFB0F0008A00F /* UIUtils.m in Sources */,
-				3AC4CD0918D054DA007E3A8E /* NTNavigationController.m in Sources */,
+				0D668D4318D8909B00B8EF6F /* NTNavigationController.m in Sources */,
 				3A07E74818CFFAB80008A00F /* UIView+Effects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

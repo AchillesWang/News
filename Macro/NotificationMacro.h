@@ -11,6 +11,6 @@
 #ifndef News_NotificationMacro_h
 #define News_NotificationMacro_h
 
-
+#define NEWS_NOTIFICATION_KEY @"NEWS_NOTIFICATION_KEY"              //通知key
 
 #endif

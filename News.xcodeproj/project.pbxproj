@@ -142,10 +142,8 @@
 		0D668D3C18D8909B00B8EF6F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0DF9525718E841FB004DFFED /* Base */,
 				0DF9523F18E83CA5004DFFED /* HomePage */,
-				0DF9523818E83BCC004DFFED /* JASidePanels */,
-				0D668D3D18D8909B00B8EF6F /* NTNavigationController */,
-				0D668D4018D8909B00B8EF6F /* NTViewController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -216,6 +214,16 @@
 				0DF9525518E84196004DFFED /* UIViewExt.m */,
 			);
 			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		0DF9525718E841FB004DFFED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9523818E83BCC004DFFED /* JASidePanels */,
+				0D668D3D18D8909B00B8EF6F /* NTNavigationController */,
+				0D668D4018D8909B00B8EF6F /* NTViewController */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 		3A07E6D018CFF4ED0008A00F = {

@@ -19,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //初始化中间视图以及左右的菜单
+    self.centerPanel = [self.storyboard instantiateViewControllerWithIdentifier:@"CenterNavigationController"];
+    self.leftPanel = [self.storyboard instantiateViewControllerWithIdentifier:@"NTLeftMenuController"];
+    self.rightPanel = [self.storyboard instantiateViewControllerWithIdentifier:@"NTRightMenuController"];
+    
 }
 
 - (void)didReceiveMemoryWarning

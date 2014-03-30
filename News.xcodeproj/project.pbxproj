@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		0D668D4318D8909B00B8EF6F /* NTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D668D3F18D8909B00B8EF6F /* NTNavigationController.m */; };
 		0D668D4418D8909B00B8EF6F /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D668D4218D8909B00B8EF6F /* NTViewController.m */; };
+		0DF9523D18E83BCC004DFFED /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9523A18E83BCC004DFFED /* JASidePanelController.m */; };
+		0DF9523E18E83BCC004DFFED /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9523C18E83BCC004DFFED /* UIViewController+JASidePanel.m */; };
+		0DF9524218E83CBE004DFFED /* NTLeftMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9524118E83CBE004DFFED /* NTLeftMenuController.m */; };
+		0DF9524518E83CCF004DFFED /* NTRightMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9524418E83CCF004DFFED /* NTRightMenuController.m */; };
+		0DF9524818E83CFD004DFFED /* NTCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9524718E83CFD004DFFED /* NTCenterController.m */; };
+		0DF9524E18E840A5004DFFED /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9524D18E840A5004DFFED /* UIUtils.m */; };
+		0DF9525618E84196004DFFED /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9525518E84196004DFFED /* UIViewExt.m */; };
 		3A07E6DD18CFF4ED0008A00F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A07E6DC18CFF4ED0008A00F /* Foundation.framework */; };
 		3A07E6DF18CFF4ED0008A00F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A07E6DE18CFF4ED0008A00F /* CoreGraphics.framework */; };
 		3A07E6E118CFF4ED0008A00F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A07E6E018CFF4ED0008A00F /* UIKit.framework */; };
@@ -28,8 +35,6 @@
 		3A07E74418CFFA4C0008A00F /* WXXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E74318CFFA4C0008A00F /* WXXBaseModel.m */; };
 		3A07E74818CFFAB80008A00F /* UIView+Effects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E74718CFFAB80008A00F /* UIView+Effects.m */; };
 		3A07E74C18CFFAC50008A00F /* UIDevice+Resolutions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E74B18CFFAC50008A00F /* UIDevice+Resolutions.m */; };
-		3A07E75018CFFB0F0008A00F /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E74F18CFFB0F0008A00F /* UIUtils.m */; };
-		3A07E75518CFFC490008A00F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E75418CFFC490008A00F /* UIViewExt.m */; };
 		9427A989DB5A467F8A37FFD1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8F1D716E454D2EA0B7D988 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +53,21 @@
 		0D668D3F18D8909B00B8EF6F /* NTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNavigationController.m; sourceTree = "<group>"; };
 		0D668D4118D8909B00B8EF6F /* NTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTViewController.h; sourceTree = "<group>"; };
 		0D668D4218D8909B00B8EF6F /* NTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTViewController.m; sourceTree = "<group>"; };
+		0DF9523918E83BCC004DFFED /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		0DF9523A18E83BCC004DFFED /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		0DF9523B18E83BCC004DFFED /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		0DF9523C18E83BCC004DFFED /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		0DF9524018E83CBE004DFFED /* NTLeftMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTLeftMenuController.h; sourceTree = "<group>"; };
+		0DF9524118E83CBE004DFFED /* NTLeftMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTLeftMenuController.m; sourceTree = "<group>"; };
+		0DF9524318E83CCF004DFFED /* NTRightMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTRightMenuController.h; sourceTree = "<group>"; };
+		0DF9524418E83CCF004DFFED /* NTRightMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTRightMenuController.m; sourceTree = "<group>"; };
+		0DF9524618E83CFD004DFFED /* NTCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTCenterController.h; sourceTree = "<group>"; };
+		0DF9524718E83CFD004DFFED /* NTCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTCenterController.m; sourceTree = "<group>"; };
+		0DF9524918E83FF1004DFFED /* NewsAPIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsAPIMacro.h; sourceTree = "<group>"; };
+		0DF9524C18E840A5004DFFED /* UIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtils.h; sourceTree = "<group>"; };
+		0DF9524D18E840A5004DFFED /* UIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtils.m; sourceTree = "<group>"; };
+		0DF9525418E84196004DFFED /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		0DF9525518E84196004DFFED /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		2A8F1D716E454D2EA0B7D988 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A07E6D918CFF4ED0008A00F /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A07E6DC18CFF4ED0008A00F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,10 +102,6 @@
 		3A07E74718CFFAB80008A00F /* UIView+Effects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effects.m"; sourceTree = "<group>"; };
 		3A07E74A18CFFAC50008A00F /* UIDevice+Resolutions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Resolutions.h"; sourceTree = "<group>"; };
 		3A07E74B18CFFAC50008A00F /* UIDevice+Resolutions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Resolutions.m"; sourceTree = "<group>"; };
-		3A07E74E18CFFB0F0008A00F /* UIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtils.h; sourceTree = "<group>"; };
-		3A07E74F18CFFB0F0008A00F /* UIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtils.m; sourceTree = "<group>"; };
-		3A07E75318CFFC490008A00F /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
-		3A07E75418CFFC490008A00F /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		BF63C9D199FB43FD82FB16EE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +133,7 @@
 		0D668D3B18D8909B00B8EF6F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0DF9524A18E8407C004DFFED /* Utils */,
 				0D668D3C18D8909B00B8EF6F /* Controller */,
 			);
 			path = Classes;
@@ -125,6 +142,8 @@
 		0D668D3C18D8909B00B8EF6F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0DF9523F18E83CA5004DFFED /* HomePage */,
+				0DF9523818E83BCC004DFFED /* JASidePanels */,
 				0D668D3D18D8909B00B8EF6F /* NTNavigationController */,
 				0D668D4018D8909B00B8EF6F /* NTViewController */,
 			);
@@ -147,6 +166,56 @@
 				0D668D4218D8909B00B8EF6F /* NTViewController.m */,
 			);
 			path = NTViewController;
+			sourceTree = "<group>";
+		};
+		0DF9523818E83BCC004DFFED /* JASidePanels */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9523918E83BCC004DFFED /* JASidePanelController.h */,
+				0DF9523A18E83BCC004DFFED /* JASidePanelController.m */,
+				0DF9523B18E83BCC004DFFED /* UIViewController+JASidePanel.h */,
+				0DF9523C18E83BCC004DFFED /* UIViewController+JASidePanel.m */,
+			);
+			path = JASidePanels;
+			sourceTree = "<group>";
+		};
+		0DF9523F18E83CA5004DFFED /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9524018E83CBE004DFFED /* NTLeftMenuController.h */,
+				0DF9524118E83CBE004DFFED /* NTLeftMenuController.m */,
+				0DF9524318E83CCF004DFFED /* NTRightMenuController.h */,
+				0DF9524418E83CCF004DFFED /* NTRightMenuController.m */,
+				0DF9524618E83CFD004DFFED /* NTCenterController.h */,
+				0DF9524718E83CFD004DFFED /* NTCenterController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		0DF9524A18E8407C004DFFED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9524B18E840A5004DFFED /* UIUtils */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0DF9524B18E840A5004DFFED /* UIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9524C18E840A5004DFFED /* UIUtils.h */,
+				0DF9524D18E840A5004DFFED /* UIUtils.m */,
+			);
+			path = UIUtils;
+			sourceTree = "<group>";
+		};
+		0DF9525318E84196004DFFED /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9525418E84196004DFFED /* UIViewExt.h */,
+				0DF9525518E84196004DFFED /* UIViewExt.m */,
+			);
+			path = UIViewExt;
 			sourceTree = "<group>";
 		};
 		3A07E6D018CFF4ED0008A00F = {
@@ -236,7 +305,6 @@
 			children = (
 				0D668D3B18D8909B00B8EF6F /* Classes */,
 				3A07E71E18CFF7670008A00F /* Views */,
-				3A07E75118CFFC380008A00F /* Extension */,
 				3A07E71C18CFF7670008A00F /* Categories */,
 			);
 			path = General;
@@ -245,7 +313,6 @@
 		3A07E71218CFF5640008A00F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				3A07E74D18CFFB0F0008A00F /* UIUtils */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -257,6 +324,7 @@
 				3A07E71918CFF6010008A00F /* NotificationMacro.h */,
 				3A07E71A18CFF62E0008A00F /* UtilsMacro.h */,
 				3A07E71B18CFF6EA0008A00F /* VendorMacro.h */,
+				0DF9524918E83FF1004DFFED /* NewsAPIMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -289,6 +357,7 @@
 		3A07E71C18CFF7670008A00F /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				0DF9525318E84196004DFFED /* UIViewExt */,
 				3A07E74918CFFAC50008A00F /* UIDevice+Resolutions */,
 				3A07E74518CFFAB80008A00F /* UIView+Effects */,
 			);
@@ -355,33 +424,6 @@
 				3A07E74B18CFFAC50008A00F /* UIDevice+Resolutions.m */,
 			);
 			path = "UIDevice+Resolutions";
-			sourceTree = "<group>";
-		};
-		3A07E74D18CFFB0F0008A00F /* UIUtils */ = {
-			isa = PBXGroup;
-			children = (
-				3A07E74E18CFFB0F0008A00F /* UIUtils.h */,
-				3A07E74F18CFFB0F0008A00F /* UIUtils.m */,
-			);
-			path = UIUtils;
-			sourceTree = "<group>";
-		};
-		3A07E75118CFFC380008A00F /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				3A07E75218CFFC490008A00F /* UIViewExt */,
-			);
-			name = Extension;
-			path = Categories/Extension;
-			sourceTree = "<group>";
-		};
-		3A07E75218CFFC490008A00F /* UIViewExt */ = {
-			isa = PBXGroup;
-			children = (
-				3A07E75318CFFC490008A00F /* UIViewExt.h */,
-				3A07E75418CFFC490008A00F /* UIViewExt.m */,
-			);
-			path = UIViewExt;
 			sourceTree = "<group>";
 		};
 		3A07E75618CFFCBF0008A00F /* Image */ = {
@@ -538,18 +580,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF9524E18E840A5004DFFED /* UIUtils.m in Sources */,
 				3A07E6F318CFF4ED0008A00F /* NTMainViewController.m in Sources */,
 				3A07E74418CFFA4C0008A00F /* WXXBaseModel.m in Sources */,
 				3A07E74C18CFFAC50008A00F /* UIDevice+Resolutions.m in Sources */,
-				3A07E75518CFFC490008A00F /* UIViewExt.m in Sources */,
 				3A07E72918CFF7F50008A00F /* NTTableView.m in Sources */,
 				3A07E72518CFF7BF0008A00F /* NTTableViewCell.m in Sources */,
+				0DF9524218E83CBE004DFFED /* NTLeftMenuController.m in Sources */,
 				0D668D4418D8909B00B8EF6F /* NTViewController.m in Sources */,
+				0DF9523D18E83BCC004DFFED /* JASidePanelController.m in Sources */,
 				3A07E6ED18CFF4ED0008A00F /* NTAppDelegate.m in Sources */,
+				0DF9524818E83CFD004DFFED /* NTCenterController.m in Sources */,
 				3A07E6E918CFF4ED0008A00F /* main.m in Sources */,
-				3A07E75018CFFB0F0008A00F /* UIUtils.m in Sources */,
+				0DF9524518E83CCF004DFFED /* NTRightMenuController.m in Sources */,
 				0D668D4318D8909B00B8EF6F /* NTNavigationController.m in Sources */,
 				3A07E74818CFFAB80008A00F /* UIView+Effects.m in Sources */,
+				0DF9523E18E83BCC004DFFED /* UIViewController+JASidePanel.m in Sources */,
+				0DF9525618E84196004DFFED /* UIViewExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

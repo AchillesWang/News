@@ -6,8 +6,8 @@
 //  Copyright (c) 2014年 NextTime. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JASidePanelController.h"
 
-@interface NTMainViewController : UIViewController
+@interface NTMainViewController : JASidePanelController
 
 @end

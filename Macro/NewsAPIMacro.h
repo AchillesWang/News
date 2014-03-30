@@ -9,6 +9,6 @@
 #ifndef News_NewsAPIMacro_h
 #define News_NewsAPIMacro_h
 
-
+#define URL_BaiDu @"www.baidu.com"
 
 #endif

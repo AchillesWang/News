@@ -7,6 +7,7 @@
 //
 
 #import "NTCenterController.h"
+#import <AFNetworking.h>
 
 @interface NTCenterController ()
 
@@ -27,6 +28,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+}
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    [manager GET:URL_TouTiao parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSLog(@"JSON: %@", responseObject);
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Error: %@", error);
+    }];
 }
 
 - (void)didReceiveMemoryWarning

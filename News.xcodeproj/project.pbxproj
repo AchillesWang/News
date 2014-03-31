@@ -49,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0FCC7818E863230077A409 /* BaseMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseMacro.h; sourceTree = "<group>"; };
 		0D668D3E18D8909B00B8EF6F /* NTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNavigationController.h; sourceTree = "<group>"; };
 		0D668D3F18D8909B00B8EF6F /* NTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNavigationController.m; sourceTree = "<group>"; };
 		0D668D4118D8909B00B8EF6F /* NTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTViewController.h; sourceTree = "<group>"; };
@@ -142,10 +143,8 @@
 		0D668D3C18D8909B00B8EF6F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0DF9525718E841FB004DFFED /* Base */,
 				0DF9523F18E83CA5004DFFED /* HomePage */,
-				0DF9523818E83BCC004DFFED /* JASidePanels */,
-				0D668D3D18D8909B00B8EF6F /* NTNavigationController */,
-				0D668D4018D8909B00B8EF6F /* NTViewController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -216,6 +215,16 @@
 				0DF9525518E84196004DFFED /* UIViewExt.m */,
 			);
 			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		0DF9525718E841FB004DFFED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9523818E83BCC004DFFED /* JASidePanels */,
+				0D668D3D18D8909B00B8EF6F /* NTNavigationController */,
+				0D668D4018D8909B00B8EF6F /* NTViewController */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 		3A07E6D018CFF4ED0008A00F = {
@@ -325,6 +334,7 @@
 				3A07E71A18CFF62E0008A00F /* UtilsMacro.h */,
 				3A07E71B18CFF6EA0008A00F /* VendorMacro.h */,
 				0DF9524918E83FF1004DFFED /* NewsAPIMacro.h */,
+				0D0FCC7818E863230077A409 /* BaseMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -497,6 +507,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = NextTime;
 				TargetAttributes = {
+					3A07E6D818CFF4ED0008A00F = {
+						DevelopmentTeam = 5856T889NQ;
+					};
 					3A07E6F918CFF4ED0008A00F = {
 						TestTargetID = 3A07E6D818CFF4ED0008A00F;
 					};
@@ -722,10 +735,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "News/News-Prefix.pch";
 				INFOPLIST_FILE = "News/News-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -736,10 +752,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "News/News-Prefix.pch";
 				INFOPLIST_FILE = "News/News-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

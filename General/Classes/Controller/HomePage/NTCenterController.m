@@ -33,8 +33,11 @@
 {
     [super viewDidAppear:animated];
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    
+    manager.responseSerializer.acceptableContentTypes =  [NSSet setWithObject:@"text/html"];
+    
     [manager GET:URL_TouTiao parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSLog(@"JSON: %@", responseObject);
+        NSLog(@"operation:%@,JSON: %@",operation, responseObject);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
     }];

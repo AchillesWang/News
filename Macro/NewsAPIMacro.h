@@ -18,6 +18,8 @@
 #define URL_BaiDu               @"http://www.baidu.com"
 //3g.163.com
 #define URL_3G_NetEase          @"3g.163.com"
+//www.163.com
+#define URL_3W_NetEase          @"www.163.com"
 //头条
 #define URL_API_TouTiao         @"http://c.3g.163.com/nc/article/headline/T1295501906343/0-20.html"
 //科技

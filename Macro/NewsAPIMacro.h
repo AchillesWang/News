@@ -20,6 +20,8 @@
 #define URL_3G_NetEase          @"3g.163.com"
 //www.163.com
 #define URL_3W_NetEase          @"www.163.com"
+//google
+#define URL_Google_HK           @"www.google.com.hk"
 //头条
 #define URL_API_TouTiao         @"http://c.3g.163.com/nc/article/headline/T1295501906343/0-20.html"
 //科技

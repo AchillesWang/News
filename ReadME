@@ -1,0 +1,48 @@
+Models
+这个目录下放一些与数据相关的Model文件
+
+
+Macro
+这个目录下放了整个应用会用到的宏定义
+AppMacro.h 里放app相关的宏定义
+NotificationMacro.h 里放的是通知相关的宏定义
+UtilsMacro.h 里放的是一些方便使用的宏定义
+VendorMacro.h 里放一些第三方常量
+
+General
+这个目录放会被重用的Views/Classes和Categories。里面大概是这样：
+General
+    |- Views
+        |- TPKScollView
+        |- TPKPullToRefresh
+        ...
+    |- Classes
+        |- TPKBaseViewController
+        |- TPKHorizontalView
+        ...
+    | - Categories
+        |- UIViewController+Sizzle
+        |- UIImageView+Downloader
+        ...
+                
+Helpers
+这个目录放一些助手类，文件名与功能挂钩。里面大概是这样：
+Helpers
+    |- TPKShareHelper
+    |- TPDBHelper
+    |- TPKEmotionHelper
+    ...
+    
+Vendors
+这个目录放第三方的类库/SDK，如UMeng、WeiboSDK、WeixinSDK等等。
+
+Sections
+这个目录下面的文件对应的是app的具体单元，如导航、瀑布流等等。里面大概是这样：
+Sections
+    |- Menu
+    |- Setting
+    |- Collection
+    ...
+    
+Resources
+这个目录下放的是app会用到的一些资源，主要是图片。

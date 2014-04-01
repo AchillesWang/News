@@ -11,9 +11,6 @@
 		0D668D4418D8909B00B8EF6F /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D668D4218D8909B00B8EF6F /* NTViewController.m */; };
 		0DF9523D18E83BCC004DFFED /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9523A18E83BCC004DFFED /* JASidePanelController.m */; };
 		0DF9523E18E83BCC004DFFED /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9523C18E83BCC004DFFED /* UIViewController+JASidePanel.m */; };
-		0DF9524218E83CBE004DFFED /* NTLeftMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9524118E83CBE004DFFED /* NTLeftMenuController.m */; };
-		0DF9524518E83CCF004DFFED /* NTRightMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9524418E83CCF004DFFED /* NTRightMenuController.m */; };
-		0DF9524818E83CFD004DFFED /* NTCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9524718E83CFD004DFFED /* NTCenterController.m */; };
 		0DF9524E18E840A5004DFFED /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9524D18E840A5004DFFED /* UIUtils.m */; };
 		0DF9525618E84196004DFFED /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9525518E84196004DFFED /* UIViewExt.m */; };
 		3A07E6DD18CFF4ED0008A00F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A07E6DC18CFF4ED0008A00F /* Foundation.framework */; };
@@ -35,6 +32,11 @@
 		3A07E74418CFFA4C0008A00F /* WXXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E74318CFFA4C0008A00F /* WXXBaseModel.m */; };
 		3A07E74818CFFAB80008A00F /* UIView+Effects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E74718CFFAB80008A00F /* UIView+Effects.m */; };
 		3A07E74C18CFFAC50008A00F /* UIDevice+Resolutions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E74B18CFFAC50008A00F /* UIDevice+Resolutions.m */; };
+		3A63A52618EA6407006E0BE9 /* NTCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A63A52118EA6407006E0BE9 /* NTCenterController.m */; };
+		3A63A52718EA6407006E0BE9 /* NTLeftMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A63A52318EA6407006E0BE9 /* NTLeftMenuController.m */; };
+		3A63A52818EA6407006E0BE9 /* NTRightMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A63A52518EA6407006E0BE9 /* NTRightMenuController.m */; };
+		3A63A52A18EA646F006E0BE9 /* ReadME in Resources */ = {isa = PBXBuildFile; fileRef = 3A63A52918EA646F006E0BE9 /* ReadME */; };
+		3A63A53518EA6799006E0BE9 /* NTNetworkFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A63A53418EA6799006E0BE9 /* NTNetworkFactory.m */; };
 		9427A989DB5A467F8A37FFD1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8F1D716E454D2EA0B7D988 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,12 +60,6 @@
 		0DF9523A18E83BCC004DFFED /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
 		0DF9523B18E83BCC004DFFED /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
 		0DF9523C18E83BCC004DFFED /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
-		0DF9524018E83CBE004DFFED /* NTLeftMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTLeftMenuController.h; sourceTree = "<group>"; };
-		0DF9524118E83CBE004DFFED /* NTLeftMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTLeftMenuController.m; sourceTree = "<group>"; };
-		0DF9524318E83CCF004DFFED /* NTRightMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTRightMenuController.h; sourceTree = "<group>"; };
-		0DF9524418E83CCF004DFFED /* NTRightMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTRightMenuController.m; sourceTree = "<group>"; };
-		0DF9524618E83CFD004DFFED /* NTCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTCenterController.h; sourceTree = "<group>"; };
-		0DF9524718E83CFD004DFFED /* NTCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTCenterController.m; sourceTree = "<group>"; };
 		0DF9524918E83FF1004DFFED /* NewsAPIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsAPIMacro.h; sourceTree = "<group>"; };
 		0DF9524C18E840A5004DFFED /* UIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtils.h; sourceTree = "<group>"; };
 		0DF9524D18E840A5004DFFED /* UIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtils.m; sourceTree = "<group>"; };
@@ -103,6 +99,16 @@
 		3A07E74718CFFAB80008A00F /* UIView+Effects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effects.m"; sourceTree = "<group>"; };
 		3A07E74A18CFFAC50008A00F /* UIDevice+Resolutions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Resolutions.h"; sourceTree = "<group>"; };
 		3A07E74B18CFFAC50008A00F /* UIDevice+Resolutions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Resolutions.m"; sourceTree = "<group>"; };
+		3A63A52018EA6407006E0BE9 /* NTCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTCenterController.h; sourceTree = "<group>"; };
+		3A63A52118EA6407006E0BE9 /* NTCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTCenterController.m; sourceTree = "<group>"; };
+		3A63A52218EA6407006E0BE9 /* NTLeftMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTLeftMenuController.h; sourceTree = "<group>"; };
+		3A63A52318EA6407006E0BE9 /* NTLeftMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTLeftMenuController.m; sourceTree = "<group>"; };
+		3A63A52418EA6407006E0BE9 /* NTRightMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTRightMenuController.h; sourceTree = "<group>"; };
+		3A63A52518EA6407006E0BE9 /* NTRightMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTRightMenuController.m; sourceTree = "<group>"; };
+		3A63A52918EA646F006E0BE9 /* ReadME */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadME; sourceTree = "<group>"; };
+		3A63A53218EA6726006E0BE9 /* NTFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NTFactory.h; path = General/Factory/NTFactory.h; sourceTree = SOURCE_ROOT; };
+		3A63A53318EA6799006E0BE9 /* NTNetworkFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTNetworkFactory.h; path = General/Factory/NTNetworkFactory.h; sourceTree = SOURCE_ROOT; };
+		3A63A53418EA6799006E0BE9 /* NTNetworkFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTNetworkFactory.m; path = General/Factory/NTNetworkFactory.m; sourceTree = SOURCE_ROOT; };
 		BF63C9D199FB43FD82FB16EE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +140,7 @@
 		0D668D3B18D8909B00B8EF6F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3A63A52E18EA66A4006E0BE9 /* Factory */,
 				0DF9524A18E8407C004DFFED /* Utils */,
 				0D668D3C18D8909B00B8EF6F /* Controller */,
 			);
@@ -144,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				0DF9525718E841FB004DFFED /* Base */,
-				0DF9523F18E83CA5004DFFED /* HomePage */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,19 +182,6 @@
 				0DF9523C18E83BCC004DFFED /* UIViewController+JASidePanel.m */,
 			);
 			path = JASidePanels;
-			sourceTree = "<group>";
-		};
-		0DF9523F18E83CA5004DFFED /* HomePage */ = {
-			isa = PBXGroup;
-			children = (
-				0DF9524018E83CBE004DFFED /* NTLeftMenuController.h */,
-				0DF9524118E83CBE004DFFED /* NTLeftMenuController.m */,
-				0DF9524318E83CCF004DFFED /* NTRightMenuController.h */,
-				0DF9524418E83CCF004DFFED /* NTRightMenuController.m */,
-				0DF9524618E83CFD004DFFED /* NTCenterController.h */,
-				0DF9524718E83CFD004DFFED /* NTCenterController.m */,
-			);
-			path = HomePage;
 			sourceTree = "<group>";
 		};
 		0DF9524A18E8407C004DFFED /* Utils */ = {
@@ -230,12 +223,13 @@
 		3A07E6D018CFF4ED0008A00F = {
 			isa = PBXGroup;
 			children = (
+				3A63A52918EA646F006E0BE9 /* ReadME */,
+				3A63A51E18EA6407006E0BE9 /* Sections */,
 				3A07E71118CFF5640008A00F /* General */,
 				3A07E71218CFF5640008A00F /* Helpers */,
 				3A07E71318CFF5640008A00F /* Macro */,
 				3A07E71418CFF5640008A00F /* Models */,
 				3A07E71518CFF5700008A00F /* Resources */,
-				3A07E71618CFF5700008A00F /* Sections */,
 				3A07E74018CFFA3D0008A00F /* Vendors */,
 				3A07E6E218CFF4ED0008A00F /* News */,
 				3A07E70118CFF4ED0008A00F /* NewsTests */,
@@ -357,13 +351,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		3A07E71618CFF5700008A00F /* Sections */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sections;
-			sourceTree = "<group>";
-		};
 		3A07E71C18CFF7670008A00F /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -457,6 +444,37 @@
 			path = Video;
 			sourceTree = "<group>";
 		};
+		3A63A51E18EA6407006E0BE9 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				3A63A51F18EA6407006E0BE9 /* DrawerMenu */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		3A63A51F18EA6407006E0BE9 /* DrawerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3A63A52018EA6407006E0BE9 /* NTCenterController.h */,
+				3A63A52118EA6407006E0BE9 /* NTCenterController.m */,
+				3A63A52218EA6407006E0BE9 /* NTLeftMenuController.h */,
+				3A63A52318EA6407006E0BE9 /* NTLeftMenuController.m */,
+				3A63A52418EA6407006E0BE9 /* NTRightMenuController.h */,
+				3A63A52518EA6407006E0BE9 /* NTRightMenuController.m */,
+			);
+			path = DrawerMenu;
+			sourceTree = "<group>";
+		};
+		3A63A52E18EA66A4006E0BE9 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				3A63A53218EA6726006E0BE9 /* NTFactory.h */,
+				3A63A53318EA6799006E0BE9 /* NTNetworkFactory.h */,
+				3A63A53418EA6799006E0BE9 /* NTNetworkFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -539,6 +557,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A63A52A18EA646F006E0BE9 /* ReadME in Resources */,
 				3A07E6F518CFF4ED0008A00F /* Images.xcassets in Resources */,
 				3A07E6E718CFF4ED0008A00F /* InfoPlist.strings in Resources */,
 				3A07E6F018CFF4ED0008A00F /* Main.storyboard in Resources */,
@@ -598,14 +617,15 @@
 				3A07E74418CFFA4C0008A00F /* WXXBaseModel.m in Sources */,
 				3A07E74C18CFFAC50008A00F /* UIDevice+Resolutions.m in Sources */,
 				3A07E72918CFF7F50008A00F /* NTTableView.m in Sources */,
+				3A63A52618EA6407006E0BE9 /* NTCenterController.m in Sources */,
 				3A07E72518CFF7BF0008A00F /* NTTableViewCell.m in Sources */,
-				0DF9524218E83CBE004DFFED /* NTLeftMenuController.m in Sources */,
+				3A63A53518EA6799006E0BE9 /* NTNetworkFactory.m in Sources */,
+				3A63A52718EA6407006E0BE9 /* NTLeftMenuController.m in Sources */,
 				0D668D4418D8909B00B8EF6F /* NTViewController.m in Sources */,
+				3A63A52818EA6407006E0BE9 /* NTRightMenuController.m in Sources */,
 				0DF9523D18E83BCC004DFFED /* JASidePanelController.m in Sources */,
 				3A07E6ED18CFF4ED0008A00F /* NTAppDelegate.m in Sources */,
-				0DF9524818E83CFD004DFFED /* NTCenterController.m in Sources */,
 				3A07E6E918CFF4ED0008A00F /* main.m in Sources */,
-				0DF9524518E83CCF004DFFED /* NTRightMenuController.m in Sources */,
 				0D668D4318D8909B00B8EF6F /* NTNavigationController.m in Sources */,
 				3A07E74818CFFAB80008A00F /* UIView+Effects.m in Sources */,
 				0DF9523E18E83BCC004DFFED /* UIViewController+JASidePanel.m in Sources */,

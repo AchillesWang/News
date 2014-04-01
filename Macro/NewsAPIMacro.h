@@ -13,7 +13,7 @@
 
 
 //ContentTypes
-#define URL_API_AcceptableContentTypes [NSSet setWithObject:@"text/html"]
+#define URL_API_AcceptableContentTypes @"text/html"
 //百度
 #define URL_BaiDu               @"http://www.baidu.com"
 //3g.163.com

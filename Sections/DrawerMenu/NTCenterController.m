@@ -7,7 +7,7 @@
 //
 
 #import "NTCenterController.h"
-#import <AFNetworking.h>
+#import "NTFactory.h"
 
 @interface NTCenterController ()
 
@@ -32,15 +32,21 @@
 -(void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
-    [manager GET:URL_API_TouTiao parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSLog(@"JSON: %@", responseObject);
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        NSLog(@"Error: %@", error);
-    }];
+    [NTNetworkFactory GET:URL_API_TouTiao
+                   target:self
+             contentTypes:URL_API_AcceptableContentTypes
+               parameters:nil
+                  success:@selector(success:)
+                  failure:@selector(failure:)];
 }
-
+-(void)success:(id)obj
+{
+    NSLog(@"%@,%@",NSStringFromSelector(_cmd),obj);
+}
+-(void)failure:(id)obj
+{
+   NSLog(@"%@",NSStringFromSelector(_cmd));
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
